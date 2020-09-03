@@ -6,6 +6,16 @@
 	box-sizing: border-box;
 }
 
+/* Imagenes */
+.images{
+	width: 100%;
+	height: 500px;
+}
+
+li{
+	padding-bottom: 11px;
+}
+
 body {
 	background: url('../img/fondo.png');
 	background-size: cover;
@@ -16,7 +26,7 @@ body {
 a {	text-decoration: none; }
 
 .contenedor {
-	width: 90%;
+	width: 50%;
 	max-width: 700px;
 	margin: auto;
 	height: 100%;
@@ -210,3 +220,11 @@ a {	text-decoration: none; }
 .redes-sociales .instagram { background: #ac17ff; }
 .redes-sociales .whatsapp { background: #2fd900; }
 .redes-sociales .github { background: #000; }
+
+
+/*****/
+@media screen and (max-width; 1000px){
+	.contenedor{
+		width: 90%;
+	}
+}
